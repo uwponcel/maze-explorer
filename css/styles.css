@@ -1,0 +1,113 @@
+/*
+ Règle CSS de base et pour mobile
+*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background: #111328;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: #1d1e33;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+  float: left;
+  max-width: 50%;
+  max-height: 100%;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+    position: relative;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: #EB1555;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ Règle à ajouter pour tablette électronique
+*/
+@media (min-width: 640px) {
+}
+
+/*
+ Règle à ajouter pour ordinateur
+*/
+@media (min-width: 1200px) {
+}
