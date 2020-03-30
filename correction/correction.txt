@@ -1,0 +1,14 @@
+Remise et description du projet
+==============================================================================
+Précision et clarté de la description 4/4 
+Création du projet GitLab 2/2
+Précision et clarté des schémas de wireframe 5/5
+
+Interface graphique de base du projet
+==============================================================================
+Création d'une interface ergonomique et fonctionnelle 20/20
+Qualité du code 0/5
+
+Semaine prochaine
+- Génération et affichage de labyrinthe
+- Page algorithmes ???
