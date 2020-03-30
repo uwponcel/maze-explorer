@@ -40,7 +40,13 @@ body {
 }
 
 .content {
+  margin-top: 1em;
   font-size: 5em;
+}
+
+#theButton{
+  padding: 20px;
+  margin-left: 20px;
 }
 
 /*

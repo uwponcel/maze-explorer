@@ -27,17 +27,13 @@
     </header>
 
     <div class="content">
-      <p>
+      <button type="button" id="theButton">
+        Add content !
+      </button>
+      <p id="demo">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         mollis lectus non dictum accumsan. Morbi accumsan lorem euismod placerat
-        ullamcorper. Mauris vel felis a nibh rutrum imperdiet. Mauris sodales
-        pulvinar ipsum, nec volutpat enim dictum in. Aenean nunc nisi, elementum
-        at massa tristique, consectetur vulputate quam. Suspendisse tincidunt
-        arcu vitae mi convallis, at convallis eros dictum. Pellentesque vehicula
-        consequat risus, nec vehicula justo vestibulum at. In hac habitasse
-        platea dictumst. Quisque egestas consequat lorem, id elementum nulla
-        faucibus non. Quisque aliquet, ligula vitae semper hendrerit, metus mi
-        molestie nibh, non luctus ipsum ipsum nec nisl. Praesent mollis lobortis
+        ullamcorper.
       </p>
     </div>
 
@@ -45,5 +41,16 @@
       <p>&copy;Maze Explorer | &copy;Collège La Cité</p>
       <p>Développé par William Poncelet</p>
     </footer>
+
+    <script>
+      const btn = document.getElementById("theButton");
+      const myText = document.getElementById("demo");
+
+      btn.addEventListener("click", function() {
+        const myInsertText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor ipsum ac nunc lacinia, quis varius elit commodo. Mauris eu urna tincidunt, semper ex quis, finibus massa. Aenean feugiat lectus eget arcu efficitur, nec faucibus lacus placerat. Integer porttitor viverra pellentesque. Quisque ornare magna pharetra arcu aliquam laoreet. Cras a tellus ac risus mollis finibus. Aliquam quis mi elementum, sollicitudin sapien egestas, hendrerit nunc. Vestibulum augue augue, condimentum eget pellentesque a, dignissim et nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere nibh ante, sit amet rhoncus lorem posuere eu. Sed tristique neque pharetra leo sagittis rutrum. Vivamus aliquam augue erat, porttitor lobortis libero vestibulum vitae. Suspendisse finibus ut tellus sit amet placerat. Maecenas hendrerit rutrum imperdiet.";
+        myText.innerHTML += myInsertText;
+      });
+    </script>
   </body>
 </html>
