@@ -27,9 +27,14 @@
     </header>
 
     <div class="content">
-      <button type="button" id="theButton">
-        Add content !
-      </button>
+      <canvas
+        id="myCanvas"
+        class="gameBoard"
+        width="400"
+        height="400"
+        
+      >
+      </canvas>
       <p id="demo">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         mollis lectus non dictum accumsan. Morbi accumsan lorem euismod placerat
@@ -42,15 +47,6 @@
       <p>Développé par William Poncelet</p>
     </footer>
 
-    <script>
-      const btn = document.getElementById("theButton");
-      const myText = document.getElementById("demo");
-
-      btn.addEventListener("click", function() {
-        const myInsertText =
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor ipsum ac nunc lacinia, quis varius elit commodo. Mauris eu urna tincidunt, semper ex quis, finibus massa. Aenean feugiat lectus eget arcu efficitur, nec faucibus lacus placerat. Integer porttitor viverra pellentesque. Quisque ornare magna pharetra arcu aliquam laoreet. Cras a tellus ac risus mollis finibus. Aliquam quis mi elementum, sollicitudin sapien egestas, hendrerit nunc. Vestibulum augue augue, condimentum eget pellentesque a, dignissim et nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere nibh ante, sit amet rhoncus lorem posuere eu. Sed tristique neque pharetra leo sagittis rutrum. Vivamus aliquam augue erat, porttitor lobortis libero vestibulum vitae. Suspendisse finibus ut tellus sit amet placerat. Maecenas hendrerit rutrum imperdiet.";
-        myText.innerHTML += myInsertText;
-      });
-    </script>
+    <script src="./js/maze_generator.js"></script>
   </body>
 </html>

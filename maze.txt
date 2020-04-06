@@ -135,3 +135,5 @@ function sortRand(a)
     </p>
     <input id="reset" type="button" value="Reset maze" /><br />
     <canvas id="game" width="800" height="400"></canvas>
+
+https://en.wikipedia.org/wiki/Maze_generation_algorithm#Recursive_backtracker
