@@ -20,9 +20,10 @@ html {
 }
 
 body {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto;
+  /*To keep footer at bottom*/
+  display: flex;
+  flex-direction: column;
+
   margin: 0;
   background: var(--body-color);
   font-family: "Work Sans", sans-serif;
@@ -30,24 +31,28 @@ body {
 }
 
 .footer{
-  grid-row-start: 2;
-  grid-row-end: 3;
+ 
   background: var(--header-color);
   color: white;
   padding: 20px;
   text-transform: uppercase;
   font-size: .7em;
+  /*To keep footer at bottom*/
+  flex-shrink: 0;
 }
 
-.content {
-  margin-top: 1em;
-  font-size: 5em;
+.content{
+  /*To keep footer at bottom*/
+  flex: 1 0 auto;
 }
 
-#theButton{
-  padding: 20px;
-  margin-left: 20px;
+.gameBoard{
+  display: block;
+  margin: auto;
+  margin-top: 10em;
+  
 }
+
 
 /*
  Règle CSS de base et pour mobile
@@ -153,7 +158,7 @@ nav a:hover {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 800px) {
   .nav-toggle-label {
     display: none;
   }
