@@ -7,8 +7,16 @@ Précision et clarté des schémas de wireframe 5/5
 Interface graphique de base du projet
 ==============================================================================
 Création d'une interface ergonomique et fonctionnelle 20/20
-Qualité du code 0/5
+Qualité du code x/5
+
+Fonctionnalités du projet
+==============================================================================
+Atteinte des objectifs d’ajout de fonctionnalité 4/22
+Qualité du code x/5
 
 Semaine prochaine
+- Pousser footer en bas
 - Génération et affichage de labyrinthe
-- Page algorithmes ???
+- Déplacer perso dans le labyrinthe
+- Condition de victoire si on sort du labyrinthe
+- Page algorithmes
