@@ -27,19 +27,9 @@
     </header>
 
     <div class="content">
-      <canvas
-        id="myCanvas"
-        class="gameBoard"
-        width="400"
-        height="400"
-        
-      >
-      </canvas>
-      <p id="demo">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-        mollis lectus non dictum accumsan. Morbi accumsan lorem euismod placerat
-        ullamcorper.
-      </p>
+      <canvas id="maze" width="400" height="400"></canvas>
+      <button onclick="initMaze();">Run</button>
+  
     </div>
 
     <footer class="footer">
@@ -47,6 +37,7 @@
       <p>Développé par William Poncelet</p>
     </footer>
 
-    <script src="./js/maze_generator.js"></script>
+    <script type="text/javascript" src="./js/maze_generator.js"></script>
+   
   </body>
 </html>

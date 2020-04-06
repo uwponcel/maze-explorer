@@ -53,6 +53,14 @@ body {
   
 }
 
+#maze{
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 8em;
+}
+
+
 
 /*
  Règle CSS de base et pour mobile
