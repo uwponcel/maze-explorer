@@ -20,10 +20,6 @@ html {
 }
 
 body {
-  /*To keep footer at bottom*/
-  display: flex;
-  flex-direction: column;
-
   margin: 0;
   background: var(--body-color);
   font-family: "Work Sans", sans-serif;
@@ -31,33 +27,65 @@ body {
 }
 
 .footer{
- 
   background: var(--header-color);
   color: white;
   padding: 20px;
   text-transform: uppercase;
   font-size: .7em;
-  /*To keep footer at bottom*/
-  flex-shrink: 0;
+  text-align: center;
 }
 
 .content{
   /*To keep footer at bottom*/
-  flex: 1 0 auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between
 }
 
-.gameBoard{
+button{
+  padding-top: 10em;
+  background-color:var(--accent-color); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
   display: block;
   margin: auto;
-  margin-top: 10em;
-  
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.instructions{
+  margin-top: 7em;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px dashed var(--accent-color);
+  background-color: var(--header-color);
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.instructions p{
+  margin:1em;
 }
 
 #maze{
   display: block;
   margin: auto;
   border: 1px solid black;
-  margin-top: 8em;
+  margin-top: 1em;
 }
 
 

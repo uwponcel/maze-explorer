@@ -27,17 +27,27 @@
     </header>
 
     <div class="content">
+      <div class="instructions">
+        <p>
+          Use the arrow keys to move the player.
+        </p>
+        <p>
+          A maze will be generated each time you reach the end marker for a
+          total of 3 mazes.
+        </p>
+        <p>
+          The goal of the game is to reach the end marker as fast as possible !
+        </p>
+      </div>
       <canvas id="maze" width="400" height="400"></canvas>
-      <button onclick="initMaze();">Run</button>
-  
+      <button onclick="initMaze();">Start the game !</button>
+
+      <footer class="footer">
+        <p>&copy;Maze Explorer | &copy;Collège La Cité</p>
+        <p>Développé par William Poncelet</p>
+      </footer>
     </div>
 
-    <footer class="footer">
-      <p>&copy;Maze Explorer | &copy;Collège La Cité</p>
-      <p>Développé par William Poncelet</p>
-    </footer>
-
     <script type="text/javascript" src="./js/maze_generator.js"></script>
-   
   </body>
 </html>
