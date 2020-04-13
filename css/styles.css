@@ -26,27 +26,29 @@ body {
   font-weight: 400;
 }
 
-.footer{
+.footer {
   background: var(--header-color);
   color: white;
   padding: 20px;
   text-transform: uppercase;
-  font-size: .7em;
+  font-size: 0.7em;
   text-align: center;
 }
 
-.content{
+.content {
   /*To keep footer at bottom*/
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
-button{
-  padding-top: 10em;
-  background-color:var(--accent-color); /* Green */
+button {
+  padding: 0;
+  background: none;
+  background-color: var(--accent-color); /* Green */
   border: none;
+
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -60,35 +62,36 @@ button{
   transition-duration: 0.4s;
 }
 
-button:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
+
+
+/* Remove the blue border onClick */
+button:focus {
+  background-color: #4caf50;
+  outline: 0;
 }
 
-.instructions{
+.instructions {
   margin-top: 7em;
   margin-left: 10px;
   margin-right: 10px;
   border: 2px dashed var(--accent-color);
   background-color: var(--header-color);
-  padding: .5rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   color: white;
   text-align: center;
 }
-.instructions p{
-  margin:1em;
+.instructions p {
+  margin: 1em;
 }
 
-#maze{
+#maze {
   display: block;
   margin: auto;
   border: 1px solid black;
   margin-top: 1em;
 }
-
-
 
 /*
  Règle CSS de base et pour mobile
