@@ -7,16 +7,17 @@ Précision et clarté des schémas de wireframe 5/5
 Interface graphique de base du projet
 ==============================================================================
 Création d'une interface ergonomique et fonctionnelle 20/20
-Qualité du code x/5
 
 Fonctionnalités du projet
 ==============================================================================
-Atteinte des objectifs d’ajout de fonctionnalité 4/22
-Qualité du code x/5
+Atteinte des objectifs d’ajout de fonctionnalité 22/22
 
-Semaine prochaine
-- Pousser footer en bas
-- Génération et affichage de labyrinthe
-- Déplacer perso dans le labyrinthe
-- Condition de victoire si on sort du labyrinthe
-- Page algorithmes
+Finition du projet
+==============================================================================
+Atteinte des objectifs des dernières fonctionnalité 22/22
+Qualité du code 11/15
+
+Qualité du code:
+- Manque l'entête de fichier pour le CSS et JS
+- Manque de commentaires dans ton fichier JS, surtout considérant la
+complexité de ton code 
